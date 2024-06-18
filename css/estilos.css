@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto+Mono:wght@100..700&display=swap");
+:root {
+  --bs-body-bg: #F2DBE1 ;
+}
+
+.btn-outline-success {
+  --bs-btn-border-color: #F2DBE1;
+  --bs-btn-hover-bg: $colordos ;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-fondo);
+  font-size: 15px;
+}
+
+h1, h2 {
+  font-family: "Roboto Mono", monospace;
+}
+
+.carousel {
+  width: 50%;
+  padding-bottom: 3.5rem;
+}
+
+.titulo, .row, h3 {
+  padding: 4rem;
+}
+
+h1 {
+  font-size: 60px;
+  padding-bottom: 0.1;
+}
+
+h3 {
+  font-size: 20px;
+  padding-top: 0.1;
+}
+
+.row, .container-md2 {
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.camara {
+  width: 60%;
+}
+
+.btn-primary-sabe {
+  background-color: #F2DBE1;
+}
+.btn-primary-sabe:hover {
+  background-color: #F2DBE1;
+}
+
+.imagen5, .imagen6 {
+  padding: 2rem;
+}
+
+footer {
+  height: 25vh;
+  margin: 0;
+  background-color: #F2DBE1;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+}
